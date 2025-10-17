@@ -8,3 +8,12 @@ theme = 'PaperMod'
 	customCSS = "/css/custom.css"
 	# Accent color used across the site (primary/secondary accents)
 	accent = "#00bcd4"
+
+	# PaperMod-specific options
+	mainSections = [""]
+
+	[params.cover]
+	  # show cover images in lists and single pages by default
+	  hidden = false
+	  linkFullImages = true
+	  responsiveImages = true
